@@ -13,3 +13,9 @@ is set in the remote system.
 This civil package was extracted and forked from `cloud.google.com/go/civil`.
 As such the license and contributing requirements remain the same as that
 module.
+
+## How to Use
+append below statement to your go.mod
+```
+replace cloud.google.com/go/civil => github.com/starqubit/golang-sql-civil v1.0.1
+```
